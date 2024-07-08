@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rampart+One&display=swap');
+
+body {
+    background-color: #ebffef;
+    background-image: url("img/bg/loopBackground.png");
+    background-size: 50%;
+}
+
+.bodyTitle {
+    font-family: "Poppins", sans-serif;
+    color: #8602ab;
+    font-size: 250%;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    color: #8602ab;
+    font-size: 200%;
+}
+
+.titleLinks {
+    font-family: "Poppins", sans-serif;
+    color: #8602ab;
+    font-size: 160%;
+}
+
+.purpleText {
+    font-family: "Poppins", sans-serif;
+    color: #8602ab;
+    font-size: 120%;
+}
+
+.thumbnail {
+    width: 14em;
+    height: 10em;
+    border: 3px solid #8602ab;
+}
+
+td {
+    text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 1199px) {
+    .thumbnail {
+        width: 7em;
+        height: 4em;
+    }
+
+    .bodyTitle {
+        font-size: 150%;
+        color: green;
+    }
+
+    .heading {
+        font-size: 100%;
+    }
+
+    .titleLinks {
+        font-size: 80%;
+    }
+
+    .purpleText {
+        font-size: 70%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1359px) {
+    .thumbnail {
+        width: 8em;
+        height: 5.3em;
+    }
+
+    .bodyTitle {
+        font-size: 150%;
+        color: green;
+    }
+
+    .heading {
+        font-size: 100%;
+    }
+
+    .titleLinks {
+        font-size: 80%;
+    }
+
+    .purpleText {
+        font-size: 70%;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1440px) {
+    .thumbnail {
+        width: 9em;
+        height: 6em;
+    }
+
+    .bodyTitle {
+        font-size: 150%;
+        color: green;
+    }
+
+    .heading {
+        font-size: 100%;
+    }
+
+    .titleLinks {
+        font-size: 80%;
+    }
+
+    .purpleText {
+        font-size: 70%;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1680px) {
+    .thumbnail {
+        width: 10em;
+        height: 7.5em;
+    }
+
+    .bodyTitle {
+        font-size: 200%;
+        color: gray;
+    }
+
+    .heading {
+        font-size: 150%;
+    }
+
+    .titleLinks {
+        font-size: 110%;
+    }
+
+    .purpleText {
+        font-size: 70%;
+    }
+}
