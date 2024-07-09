@@ -29,29 +29,36 @@
                 <td colspan="8">
                     <hr />
                     <span class="purpleText">Type: </span>
-                    <select>
-                        <option>All</option>
-                        <option>Game Development ()</option>
-                        <option>Programming ()</option>
-                        <option>Video Editing ()</option>
-                        <option>Musical Composition ()</option>
-                        <option>2D Design ()</option>
-                        <option>Art ()</option>
-                        <option>Animation ()</option>
+                    <select id="typeSelect">
+                        <option value="All">All</option>
+                        <option value="Team Effort">Team Effort</option>
+                        <option value="Solo">Solo</option>
+                        <option value="Game Development">Game Development</option>
+                        <option value="Programming">Programming</option>
+                        <option value="Team Effort">Team Effort</option>
+                        <option value="Video Editing">Video Editing</option>
+                        <option value="Musical Composition">Musical Composition</option>
+                        <option value="2D Design">2D Design</option>
+                        <option value="Art">Art</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Photo Editing">Photo Editing</option>
+                        <option value="Web Development">Web Development</option>
                     </select>
                     &nbsp;&nbsp;&nbsp;
                     <span class="purpleText">Tools: </span>
-                    <select>
-                        <option>All</option>
-                        <option>C# ()</option>
-                        <option>Unity ()</option>
-                        <option>FL Studio ()</option>
-                        <option>Adobe Premiere Pro ()</option>
-                        <option>Adobe After Effects ()</option>
-                        <option>Adobe Illustrator ()</option>
-                        <option>Windows Forms ()</option>
-                        <option>.NET Console App ()</option>
-                        <option>HTML/CSS/JS ()</option>
+                    <select id="toolSelect">
+                        <option value="All">All</option>
+                        <option value="C#">C#</option>
+                        <option value="Unity">Unity</option>
+                        <option value="FL Studio">FL Studio</option>
+                        <option value="Adobe Premiere Pro">Adobe Premiere Pro</option>
+                        <option value="Adobe Photoshop">Adobe Photoshop</option>
+                        <option value="Adobe After Effects">Adobe After Effects</option>
+                        <option value="Adobe Illustrator / Inkscape">Adobe Illustrator / Inkscape</option>
+                        <option value="Windows Forms">Windows Forms</option>
+                        <option value="HTML/CSS/JS/PHP">HTML/CSS/JS/PHP</option>
+                        <option value="Aseprite">Aseprite</option>
+                        <option value="OpenToonz">OpenToonz</option>
                     </select>
                     <hr />
                 </td>
@@ -62,10 +69,10 @@
                 <td class="heading" colspan="8">Commercial</td>
             </tr>
             <tr>
-                <td><a href="#"><img src="img/thumbnails/ctv.jpg" class="thumbnail" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/jurnalWesport.png" class="thumbnail" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/metallion.png" class="thumbnail" data-gif="img/thumbnails/metallion.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/mcrsrl.png" class="thumbnail" data-gif="img/thumbnails/mcrsrl.gif" /></a></td>
+                <td><a href="#"><img src="img/thumbnails/ctv.jpg" class="thumbnail" data-gif="img/thumbnails/ctv.gif" data-type="Video Editing,Photo Editing,Team Effort" data-tool="Adobe Premiere Pro"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/jurnalWesport.png" class="thumbnail" data-gif="img/thumbnails/jurnalWesport.gif" data-type="Video Editing" data-tool="Adobe Premiere Pro"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/metallion.png" class="thumbnail" data-gif="img/thumbnails/metallion.gif"  data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/mcrsrl.png" class="thumbnail" data-gif="img/thumbnails/mcrsrl.gif"  data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop"/></a></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -77,24 +84,23 @@
 
             </tr>
             <tr>
-                <td><a href="#"><img src="img/thumbnails/dungeonsAndRabbits.png" class="thumbnail" data-gif="img/thumbnails/dungeonsAndRabbits.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/onag.png" class="thumbnail" data-gif="img/thumbnails/onag.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/speedpie.png" class="thumbnail" data-gif="img/thumbnails/speedpie.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/abth.png" class="thumbnail" data-gif="img/thumbnails/abth.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/teorieMuzicala.png" class="thumbnail" data-gif="img/thumbnails/teorieMuzicala.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/laInvartite.png" class="thumbnail" data-gif="img/thumbnails/laInvartite.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/trivia.png" class="thumbnail" data-gif="img/thumbnails/trivia.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/bucuria.png" class="thumbnail" data-gif="img/thumbnails/bucuria.gif" /></a></td>
+                <td><a href="#"><img src="img/thumbnails/dungeonsAndRabbits.png" class="thumbnail" data-gif="img/thumbnails/dungeonsAndRabbits.gif"  data-type="Game Development,Programming,Team Effort,Musical Composition" data-tool="Unity,FL Studio,C#"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/onag.png" class="thumbnail" data-gif="img/thumbnails/onag.gif"  data-type="Solo,Game Development,Programming,Video Editing,Photo Editing" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/speedpie.png" class="thumbnail" data-gif="img/thumbnails/speedpie.gif"  data-type="Game Development,Programming,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,C#,FL Studio"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/abth.png" class="thumbnail" data-gif="img/thumbnails/abth.gif"  data-type="Game Development,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,FL Studio,Aseprite"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/teorieMuzicala.png" class="thumbnail" data-gif="img/thumbnails/teorieMuzicala.gif"  data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Illustrator / Inkscape,Adobe Premiere Pro"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/laInvartite.png" class="thumbnail" data-gif="img/thumbnails/laInvartite.gif"  data-type="Solo,Web Development,Photo Editing" data-tool="HTML/CSS/JS/PHP,Adobe Photoshop"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/trivia.png" class="thumbnail" data-gif="img/thumbnails/trivia.gif"  data-type="Solo,Game Development,Programming" data-tool="Windows Forms,C#"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/bucuria.png" class="thumbnail" data-gif="img/thumbnails/bucuria.gif"  data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape"/></a></td>
             </tr>
             <tr>
-                <td><a href="#"><img src="img/thumbnails/sah.png" class="thumbnail" data-gif="img/thumbnails/sah.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/clicksphere.png" class="thumbnail" data-gif="img/thumbnails/clicksphere.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/pian.png" class="thumbnail" data-gif="img/thumbnails/pian.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/unde.png" class="thumbnail" data-gif="img/thumbnails/unde.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/mcdonalds.png" class="thumbnail" data-gif="img/thumbnails/mcdonalds.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/basil.png" class="thumbnail" data-gif="img/thumbnails/basil.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/garfieldGang.png" class="thumbnail" data-gif="img/thumbnails/garfieldGang.gif" /></a></td>
-                <td><a href="#"><img src="img/thumbnails/games.png" class="thumbnail" data-gif="img/thumbnails/games.gif" /></a></td>
+                <td><a href="#"><img src="img/thumbnails/sah.png" class="thumbnail" data-gif="img/thumbnails/sah.gif"  data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/clicksphere.png" class="thumbnail" data-gif="img/thumbnails/clicksphere.gif"  data-type="Solo,Game Development,Programming" data-tool="Unity"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/pian.png" class="thumbnail" data-gif="img/thumbnails/pian.gif"  data-type="Solo,Animation,Art" data-tool="OpenToonz"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/unde.png" class="thumbnail" data-gif="img/thumbnails/unde.gif"  data-type="Solo,Game Development,Programming,Video Editing,Photo Editing,Musical Composition" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro,FL Studio,Aseprite"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/mcdonalds.png" class="thumbnail" data-gif="img/thumbnails/mcdonalds.gif"  data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Premiere Pro"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/basil.png" class="thumbnail" data-gif="img/thumbnails/basil.gif"  data-type="Solo,Musical Composition" data-tool="FL Studio,Adobe Premiere Pro"/></a></td>
+                <td><a href="#"><img src="img/thumbnails/garfieldGang.png" class="thumbnail" data-gif="img/thumbnails/garfieldGang.gif"  data-type="Solo,Art" data-tool="Adobe Illustrator / Inkscape"/></a></td>
             </tr>
 
             <tr>
