@@ -38,10 +38,30 @@ body {
 
 td {
     text-align: center;
+
+}
+
+
+.showcaseImage {
+    height: 600px;
+    border: 3px solid #8602ab;
 }
 
 
 
+.showcase {
+    display: none;
+}
+
+iframe {
+    border: 3px solid #8602ab;
+    height: 576px;
+    width: 1024px;
+}
+
+.gifProjects {
+    border: 3px solid #8602ab;
+}
 
 
 

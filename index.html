@@ -69,10 +69,10 @@
                 <td class="heading" colspan="8">Commercial</td>
             </tr>
             <tr>
-                <td><a href="#"><img src="img/thumbnails/ctv.jpg" class="thumbnail" data-gif="img/thumbnails/ctv.gif" data-type="Video Editing,Photo Editing,Team Effort" data-tool="Adobe Premiere Pro"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/jurnalWesport.png" class="thumbnail" data-gif="img/thumbnails/jurnalWesport.gif" data-type="Video Editing" data-tool="Adobe Premiere Pro"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/metallion.png" class="thumbnail" data-gif="img/thumbnails/metallion.gif"  data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/mcrsrl.png" class="thumbnail" data-gif="img/thumbnails/mcrsrl.gif"  data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop"/></a></td>
+                <td><a href="#ctv" onclick="show_ctv()"><img src="img/thumbnails/ctv.jpg" class="thumbnail" data-gif="img/thumbnails/ctv.gif" data-type="Video Editing,Photo Editing,Team Effort" data-tool="Adobe Premiere Pro" /></a></td>
+                <td><a href="#jurnalWesport" onclick="show_jurnalWesport()"><img src="img/thumbnails/jurnalWesport.png" class="thumbnail" data-gif="img/thumbnails/jurnalWesport.gif" data-type="Video Editing" data-tool="Adobe Premiere Pro" /></a></td>
+                <td><a href="#metallion" onclick="show_metallion()"><img src="img/thumbnails/metallion.png" class="thumbnail" data-gif="img/thumbnails/metallion.gif" data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop" /></a></td>
+                <td><a href="#mcrsrl" onclick="show_mcrsrl()"><img src="img/thumbnails/mcrsrl.png" class="thumbnail" data-gif="img/thumbnails/mcrsrl.gif" data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop" /></a></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -84,29 +84,209 @@
 
             </tr>
             <tr>
-                <td><a href="#"><img src="img/thumbnails/dungeonsAndRabbits.png" class="thumbnail" data-gif="img/thumbnails/dungeonsAndRabbits.gif"  data-type="Game Development,Programming,Team Effort,Musical Composition" data-tool="Unity,FL Studio,C#"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/onag.png" class="thumbnail" data-gif="img/thumbnails/onag.gif"  data-type="Solo,Game Development,Programming,Video Editing,Photo Editing" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/speedpie.png" class="thumbnail" data-gif="img/thumbnails/speedpie.gif"  data-type="Game Development,Programming,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,C#,FL Studio"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/abth.png" class="thumbnail" data-gif="img/thumbnails/abth.gif"  data-type="Game Development,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,FL Studio,Aseprite"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/teorieMuzicala.png" class="thumbnail" data-gif="img/thumbnails/teorieMuzicala.gif"  data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Illustrator / Inkscape,Adobe Premiere Pro"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/laInvartite.png" class="thumbnail" data-gif="img/thumbnails/laInvartite.gif"  data-type="Solo,Web Development,Photo Editing" data-tool="HTML/CSS/JS/PHP,Adobe Photoshop"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/trivia.png" class="thumbnail" data-gif="img/thumbnails/trivia.gif"  data-type="Solo,Game Development,Programming" data-tool="Windows Forms,C#"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/bucuria.png" class="thumbnail" data-gif="img/thumbnails/bucuria.gif"  data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape"/></a></td>
+                <td><a href="#show_dungeonsAndRabbits" onclick="show_dungeonsAndRabbits()"><img src="img/thumbnails/dungeonsAndRabbits.png" class="thumbnail" data-gif="img/thumbnails/dungeonsAndRabbits.gif" data-type="Game Development,Programming,Team Effort,Musical Composition" data-tool="Unity,FL Studio,C#" /></a></td>
+                <td><a href="#onag" onclick="show_onag()"><img src="img/thumbnails/onag.png" class="thumbnail" data-gif="img/thumbnails/onag.gif" data-type="Solo,Game Development,Programming,Video Editing,Photo Editing" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro" /></a></td>
+                <td><a href="#speedpie" onclick="show_speedpie()"><img src="img/thumbnails/speedpie.png" class="thumbnail" data-gif="img/thumbnails/speedpie.gif" data-type="Game Development,Programming,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,C#,FL Studio" /></a></td>
+                <td><a href="#abth" onclick="show_abth()"><img src="img/thumbnails/abth.png" class="thumbnail" data-gif="img/thumbnails/abth.gif" data-type="Game Development,Animation,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,FL Studio,Aseprite" /></a></td>
+                <td><a href="#teorieMuzicala" onclick="show_teorieMuzicala()"><img src="img/thumbnails/teorieMuzicala.png" class="thumbnail" data-gif="img/thumbnails/teorieMuzicala.gif" data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Illustrator / Inkscape,Adobe Premiere Pro" /></a></td>
+                <td><a href="#laInvartite" onclick="show_laInvartite()"><img src="img/thumbnails/laInvartite.png" class="thumbnail" data-gif="img/thumbnails/laInvartite.gif" data-type="Solo,Web Development,Photo Editing" data-tool="HTML/CSS/JS/PHP,Adobe Photoshop" /></a></td>
+                <td><a href="#trivia" onclick="show_trivia()"><img src="img/thumbnails/trivia.png" class="thumbnail" data-gif="img/thumbnails/trivia.gif" data-type="Solo,Game Development,Programming" data-tool="Windows Forms,C#" /></a></td>
+                <td><a href="#bucuria" onclick="show_bucuria()"><img src="img/thumbnails/bucuria.png" class="thumbnail" data-gif="img/thumbnails/bucuria.gif" data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
             </tr>
             <tr>
-                <td><a href="#"><img src="img/thumbnails/sah.png" class="thumbnail" data-gif="img/thumbnails/sah.gif"  data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/clicksphere.png" class="thumbnail" data-gif="img/thumbnails/clicksphere.gif"  data-type="Solo,Game Development,Programming" data-tool="Unity"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/pian.png" class="thumbnail" data-gif="img/thumbnails/pian.gif"  data-type="Solo,Animation,Art" data-tool="OpenToonz"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/unde.png" class="thumbnail" data-gif="img/thumbnails/unde.gif"  data-type="Solo,Game Development,Programming,Video Editing,Photo Editing,Musical Composition" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro,FL Studio,Aseprite"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/mcdonalds.png" class="thumbnail" data-gif="img/thumbnails/mcdonalds.gif"  data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Premiere Pro"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/basil.png" class="thumbnail" data-gif="img/thumbnails/basil.gif"  data-type="Solo,Musical Composition" data-tool="FL Studio,Adobe Premiere Pro"/></a></td>
-                <td><a href="#"><img src="img/thumbnails/garfieldGang.png" class="thumbnail" data-gif="img/thumbnails/garfieldGang.gif"  data-type="Solo,Art" data-tool="Adobe Illustrator / Inkscape"/></a></td>
+                <td><a href="#sah" onclick="show_sah()"><img src="img/thumbnails/sah.png" class="thumbnail" data-gif="img/thumbnails/sah.gif" data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
+                <td><a href="#clicksphere" onclick="show_clicksphere()"><img src="img/thumbnails/clicksphere.png" class="thumbnail" data-gif="img/thumbnails/clicksphere.gif" data-type="Solo,Game Development,Programming" data-tool="Unity" /></a></td>
+                <td><a href="#pian" onclick="show_pian()"><img src="img/thumbnails/pian.png" class="thumbnail" data-gif="img/thumbnails/pian.gif" data-type="Solo,Animation,Art" data-tool="OpenToonz" /></a></td>
+                <td><a href="#unde" onclick="show_unde()"><img src="img/thumbnails/unde.png" class="thumbnail" data-gif="img/thumbnails/unde.gif" data-type="Solo,Game Development,Programming,Video Editing,Photo Editing,Musical Composition" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro,FL Studio,Aseprite" /></a></td>
+                <td><a href="#mcdonalds" onclick="show_mcdonalds()"><img src="img/thumbnails/mcdonalds.png" class="thumbnail" data-gif="img/thumbnails/mcdonalds.gif" data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Premiere Pro" /></a></td>
+                <td><a href="#basil" onclick="show_basil()"><img src="img/thumbnails/basil.png" class="thumbnail" data-gif="img/thumbnails/basil.gif" data-type="Solo,Musical Composition" data-tool="FL Studio,Adobe Premiere Pro" /></a></td>
+                <td><a href="#garfieldGang" onclick="show_garfieldGang()"><img src="img/thumbnails/garfieldGang.png" class="thumbnail" data-gif="img/thumbnails/garfieldGang.gif" data-type="Solo,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
             </tr>
 
-            <tr>
-                <td colspan="8"></td>
+
+
+
+
+            <!-- sah -->
+
+            <tr id="sah" class="showcase">
+                <td colspan="6">
+                    <img class="showcaseImage" src="img/projects/sah.png" />
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
             </tr>
+
+
+            <!-- garfield -->
+
+            <tr id="garfieldGang" class="showcase">
+                <td colspan="6">
+                    <img class="showcaseImage" src="img/projects/garfieldGang.png" />
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- bucuria -->
+
+            <tr id="bucuria" class="showcase">
+                <td colspan="6">
+                    <img class="showcaseImage" src="img/projects/bucuria.png" />
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- teorie muzicala -->
+
+            <tr id="teorieMuzicala" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/_mZ01p-2Ces?si=hf8m3NPQx2H283t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- basil -->
+
+            <tr id="basil" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/1ej1nFOn9V0?si=Ug5outCdiDog5DZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- mcdonal -->
+
+            <tr id="mcdonalds" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/xiBHuvuvgYY?si=n6tMLcH9zTIBk4so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- dungeons and rabbits -->
+
+            <tr id="dungeonsAndRabbits" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/V6OsihyWUZw?si=nTPBMRxpoXMiYfDC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- piano -->
+
+            <tr id="pian" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/xXx3nlA-Jq8?si=o6A8RdhGqOA4AW1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- trivia -->
+
+            <tr id="trivia" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/13W7CxNKQF4?si=KgK8XcXbPZL_MhQq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- onag -->
+
+            <tr id="onag" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/lG9k4cTW3Jw?si=XZa2lCJh_79Is_h_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            <!-- abth -->
+
+            <tr id="abth" class="showcase">
+                <td colspan="6">
+                    <img class="gifProjects" src="https://s12.gifyu.com/images/Sthfq.gif" />
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+
+
+
+            <!-- mcr -->
+
+            <tr id="mcrsrl" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/_6RQzJ-5KXI?si=Ker1ZBQj-PF-__IL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+            https://s10.gifyu.com/images/Stht4.gif
+
+
+            <!-- la invartite -->
+
+            <tr id="laInvartite" class="showcase">
+                <td colspan="6">
+                    <img class="gifProjects" src="https://s10.gifyu.com/images/Stht4.gif" />
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+
+
+            <!-- unde -->
+
+            <tr id="unde" class="showcase">
+                <td colspan="6">
+                    <iframe src="https://www.youtube.com/embed/lU5gMEwAgS8?si=YGcyO2a-FciiAyrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+                <td colspan="2">
+                    Uauuauauuauauuaua
+                </td>
+
+            </tr>
+
+
         </table>
     </center>
+    <br><br><br><br><br><br>
 </body>
 </html>

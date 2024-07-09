@@ -40,6 +40,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 imgParent.style.display = 'none';
                 //imgParent.setAttribute('href', '#');
             }
+
+            hideAll();
+
         });
     }
 
@@ -48,3 +51,55 @@ document.addEventListener('DOMContentLoaded', function () {
 
     filterImages();
 });
+
+
+
+function hideAll() {
+    var elements = [
+        "ctv", "jurnalWesport", "metallion", "mcrsrl", "dungeonsAndRabbits",
+        "onag", "speedpie", "abth", "teorieMuzicala", "laInvartite",
+        "trivia", "bucuria", "sah", "clicksphere", "pian",
+        "unde", "mcdonalds", "basil", "garfieldGang"
+    ];
+
+    elements.forEach(function (id) {
+        var element = document.getElementById(id);
+        if (element) {
+            element.style.display = 'none';
+        }
+    });
+}
+
+function showElement(id) {
+    hideAll();
+    var element = document.getElementById(id);
+    if (element) {
+        element.style.display = 'table-row';
+    }
+}
+
+function show_ctv() { showElement("ctv"); }
+function show_jurnalWesport() { showElement("jurnalWesport"); }
+function show_metallion() { showElement("metallion"); }
+function show_mcrsrl() { showElement("mcrsrl"); }
+function show_dungeonsAndRabbits() { showElement("dungeonsAndRabbits"); }
+function show_onag() { showElement("onag"); }
+function show_speedpie() { showElement("speedpie"); }
+function show_abth() { showElement("abth"); }
+function show_teorieMuzicala() { showElement("teorieMuzicala"); }
+function show_laInvartite() { showElement("laInvartite"); }
+function show_trivia() { showElement("trivia"); }
+function show_bucuria() { showElement("bucuria"); }
+function show_sah() { showElement("sah"); }
+function show_clicksphere() { showElement("clicksphere"); }
+function show_pian() { showElement("pian"); }
+function show_unde() { showElement("unde"); }
+function show_mcdonalds() { showElement("mcdonalds"); }
+function show_basil() { showElement("basil"); }
+function show_garfieldGang() { showElement("garfieldGang"); }
+
+
+
+
+
+
