@@ -72,6 +72,7 @@ function hideAll() {
 
 function showElement(id) {
     hideAll();
+    
     var element = document.getElementById(id);
     if (element) {
         element.style.display = 'table-row';
