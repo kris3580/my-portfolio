@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #2C2C2C;
+}
+
+/* NAVBAR */
+
+#navbar {
+	display: flex;
+	padding: 4px;
+	justify-content: space-around;
+	background-color: #68BB59;
+}
+
+#logo_img {
+	width: 240px;
+}
+
+#menu {
+	font-family: 'Kanit', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	background-color: #ACDF87;
+	padding: 9px;
+	border-radius: 8px;
+}
+
+#navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#menu {
+	display: flex;
+	align-items: center;
+
+}
+
+
+#menu a {
+	padding: 0px 9px 0px 9px;
+}
+
+
+/* PANOU  */
+
+p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	background-color: #ACDF87;
+	margin: 0;
+	padding: 20px 0px 20px 0px;
+}
+
+video {
+	border: solid 12px #1E5631;
+}
+
+#panel {
+	display: flex;
+	background: url("fundal.png") no-repeat center;
+	justify-content: center;
+
+}
+
+
+/* FOOTER */
+
+#footer {
+	background-color: #1E5631;
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.s_images {
+	height: 36px;
+	filter: saturate(0);
+}
+
+.s_images:hover {
+   -webkit-filter: saturate(1);
+   filter: saturate(1)
+}
+
+#phone_img {
+	width: 10px;
+	filter: invert(1);
+}
+
+#socials img {
+	padding: 0px 5px 0px 5px;
+}
+
+#phone a {
+	color: white;
+	text-decoration: none;
+}
+
+#rights, #phone {
+	display: flex;
+	align-items: center;
+}
