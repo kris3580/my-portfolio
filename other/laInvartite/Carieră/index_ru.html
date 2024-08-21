@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Învârtite</title>
+	<link rel="icon" type="image/x-icon" href="../imagini/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="logo"><a href="../Pagina Principală/index_ru.html"><img id="logo_img" src="../imagini/logo2.png"></a></div>	
+	<div id="menu">
+		<a href="../Pagina Principală/index_ru.html">Главная</a>
+		<a href="../Meniu/index_ru.html">Меню</a>
+		<a href="../Restaurante/index_ru.html">Рестораны</a>
+		<a href="../Despre noi/index_ru.html">О нас</a>
+		<a href="../Carieră/index_ru.html">Карьера</a>
+	</div>
+	<a href="https://glovoapp.com/md/ru/" target="_blank"><div id="glovo"><img src="../imagini/cart.png">Заказать с Glovo</div></a>
+	<div id="lang_menu">
+		<a href="index_ro.html"><img src="../imagini/ro_icon.png"></a>
+		<a href="index_ru.html"><img src="../imagini/ru_icon.png"></a>
+		<a href="index_en.html"><img src="../imagini/en_icon.png"></a>
+	</div>
+</div>
+
+
+<div id="form_background">
+
+<center>
+<div id="form" align="center">
+
+	<center>
+		<div id="form_info">
+			<p id="form_title">ЗАЯВКА ДОСТУПНЫЕ ПОЗИЦИИ <br>"LA ÎNVÂRTITE"<p>
+			<p id="form_description">Если вам интересно работать с такими же людьми, как и вы, заполните форму ниже! Мы понимаем важность персональных данных и поэтому с целью подбора кандидатов на имеющиеся должности в нашей компании мы будем обрабатывать ваши персональные данные: имя, фамилию, адрес электронной почты, город и номер телефона (мобильный). Для того, чтобы иметь возможность обрабатывать вышеупомянутые данные, нам необходимо ваше явно выраженное согласие на этот счет.</p>
+		</div>
+	</center>
+
+	<form method="POST" action="mail_ru.php">
+		<label for="name">Имя: &nbsp; &nbsp;</label>
+		<input type="text" name="name" id="name" required><br>
+
+		<label for="lastname">Фамилия: &nbsp; &nbsp;</label>
+		<input type="text" name="lastname" id="lastname" required><br>
+
+		<label for="phone_num">Телефон: &nbsp; &nbsp;</label>
+		<input type="tel" name="phone_num" id="phone_num" required><br>
+
+		<label for="e_mail">Электронная почта: &nbsp; &nbsp;</label>
+		<input type="email" name="e_mail" id="e_mail" required><br>
+
+		<label for="experience">У вас есть опыт работы в этой сфере? &nbsp; &nbsp;</label>
+        <select id="experience" name="experience" required>
+        <option value="" selected>⬇ Выберите ⬇</option>
+		<option value="Da">Да</option>
+        <option value="Nu">Нет</option>
+		</select><br>
+
+		<label for="program">Выберите нужную программу: &nbsp; &nbsp;</label>
+        <select id="program" name="program" required>
+        <option value="" selected>⬇ Выберите ⬇</option>
+		<option value="8 ore">8 часов</option>
+        <option value="6 ore">6 часов</option>
+        <option value="4 ore">4 часов</option>
+		</select><br>
+
+		<label for="education">Уровень образования: &nbsp; &nbsp;</label>
+        <select id="education" name="education" required>
+        <option value="" selected>⬇ Выберите ⬇</option>
+		<option value="Liceu">Средняя школа</option>
+        <option value="Studii Post-Liceale">Послешкольные образования</option>
+        <option value="Universitate">Университет</option>
+        <option value="Master">Мастерская степень</option>
+        <option value="Doctorat">Докторская степень</option>
+		</select><br>
+
+		<label for="restaurant">Ресторан: &nbsp; &nbsp;</label>
+        <select id="restaurant" name="restaurant" required>
+        <option value="" selected>⬇ Выберите ⬇</option>
+		<option value="La Învârtite Centru">La Învârtite Центр</option>
+        <option value="La Învârtite Ciocana">La Învârtite Чеканы </option>
+        <option value="La Învârtite Botanica">La Învârtite Ботаника</option>
+        <option value="La Învârtite Buiucani">La Învârtite Буюкань</option>
+        <option value="La Învârtite Rîșcani">La Învârtite Рышкановка</option>
+        <option value="La Învârtite Bălți">La Învârtite Бельцы</option>
+        <option value="La Învârtite Cahul">La Învârtite Кагул</option>
+        <option value="La Învârtite Ungheni">La Învârtite Унгены</option>
+        <option value="La Învârtite Soroca">La Învârtite Сороки</option>
+        <option value="La Învârtite Orhei">La Învârtite Оргеев</option>
+		</select><br>
+
+		<input type="checkbox" name="confirmation1" required>
+		<label for="confirmation1"> &nbsp; Даю согласие на сбор и обработку моих персональных данных с целью участия в процессе отбора кандидатов.</label><br>
+
+		<input type="checkbox" name="confirmation2" required>
+		<label for="confirmation2"> &nbsp; Подтверждаю правильность введенных данных.</label><br><br>
+
+		<input type="submit" name="submit" value="Отправить форму ✓">
+	</form>
+</div>
+</div>
+</center>
+</div>
+
+
+<div id="footer">
+	<div id="rights">&copy; 2022 La Învârtite. Права не защищены.</div>
+	<div id="socials">
+		<a href="#"><img src="../imagini/instagram.png" class="s_images"></a>
+		<a href="#"><img src="../imagini/facebook.png" class="s_images"></a>
+		<a href="#"><img src="../imagini/youtube.png" class="s_images"></a>
+	</div>
+	<div id="phone"><a href="tel:+373022121212"><img id="phone_img" src="../imagini/call.png">&nbsp; +373 022-12-12-12</div></a>
+</div>
+
+</body>
+</html>

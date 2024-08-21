@@ -59,7 +59,7 @@ function hideAll() {
         "ctv", "jurnalWesport", "metallion", "mcrsrl", "dungeonsAndRabbits",
         "onag", "speedpie", "abth", "teorieMuzicala", "laInvartite",
         "trivia", "bucuria", "sah", "clicksphere", "pian",
-        "unde", "mcdonalds", "basil", "garfieldGang"
+        "unde", "mcdonalds", "basil", "garfieldGang", "tochka-rosta"
     ];
 
     elements.forEach(function (id) {
@@ -98,6 +98,7 @@ function show_unde() { showElement("unde"); }
 function show_mcdonalds() { showElement("mcdonalds"); }
 function show_basil() { showElement("basil"); }
 function show_garfieldGang() { showElement("garfieldGang"); }
+function show_tochka_rosta() { showElement("tochka-rosta"); }
 
 
 

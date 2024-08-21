@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #2C2C2C;
+}
+
+/* NAVBAR */
+
+#navbar {
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	background-color: #FFB266;
+}
+
+#logo_img {
+	width: 320px;
+}
+
+#menu {
+	font-family: 'Dancing Script', 'Marck Script', cursive;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	background-color: #FFCC99;
+	padding: 9px;
+	border-radius: 8px;
+}
+
+#navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+#lang_menu img {
+	width: 35px;
+}
+
+#menu, #glovo, #lang_menu {
+	display: flex;
+	align-items: center;
+
+}
+
+#lang_menu, img {
+	padding: 0px 10px 0px 10px;
+}
+
+#menu a {
+	padding: 0px 9px 0px 9px;
+}
+
+#glovo {
+	background-color: #33FF33;
+	border-radius: 13px;
+	padding: 14px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+#glovo:hover {
+	background-color: #66FF66;
+}
+
+#glovo img {
+	width: 25px;
+}
+
+/* PAGINA PRINCIPALĂ */
+
+center {
+	background-color: #FFCC99;
+	padding-top: 30px;
+}
+
+table, td, tr {
+	background-color: #FFCC99;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+td {
+	position: relative;
+	font-family: 'Dancing Script', 'Marck Script', cursive;
+	font-size: 90px;
+	font-weight: bold;
+}
+
+
+table img {
+	filter: saturate(0.4);
+	padding: 0px 12px 0px 12px;
+	border-radius: 50px;
+}
+
+table img:hover {
+   -webkit-filter: saturate(1);
+   filter: saturate(1);
+}
+
+#logotip {
+	position: absolute;
+	margin-top: -650px;
+	margin-left: -200px;
+	height: 400px;
+}
+
+/* FOOTER */
+
+#footer {
+	background-color: #2C2C2C;
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.s_images {
+	height: 36px;
+	filter: saturate(0);
+}
+
+.s_images:hover {
+   -webkit-filter: saturate(1);
+   filter: saturate(1)
+}
+
+#phone_img {
+	width: 10px;
+	filter: invert(1);
+}
+
+#socials img {
+	padding: 0px 5px 0px 5px;
+}
+
+#phone a {
+	color: white;
+	text-decoration: none;
+}
+
+#rights, #phone {
+	display: flex;
+	align-items: center;
+}

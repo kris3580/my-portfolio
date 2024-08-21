@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #2C2C2C;
+}
+
+/* NAVBAR */
+
+#navbar {
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	background-color: #FFB266;
+}
+
+#logo_img {
+	width: 320px;
+}
+
+#menu {
+	font-family: 'Dancing Script', 'Marck Script', cursive;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	background-color: #FFCC99;
+	padding: 9px;
+	border-radius: 8px;
+}
+
+#navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+#lang_menu img {
+	width: 35px;
+}
+
+#menu, #glovo, #lang_menu {
+	display: flex;
+	align-items: center;
+
+}
+
+#lang_menu, img {
+	padding: 0px 10px 0px 10px;
+}
+
+#menu a {
+	padding: 0px 9px 0px 9px;
+}
+
+#glovo {
+	background-color: #33FF33;
+	border-radius: 13px;
+	padding: 14px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+#glovo:hover {
+	background-color: #66FF66;
+}
+
+#glovo img {
+	width: 25px;
+}
+
+/* FORM */
+
+
+#form_background {
+	 background-image: url("../imagini/logo1_bg.png");
+	 background-size: 90px;
+	 background-position: 50%;
+	 background-color: #4A4A4A;
+	 padding-bottom: 80px;
+	 padding-top: 80px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#form_title {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#form_description {
+	font-size: 18px;
+}
+
+#form_info {
+	width: 900px;
+	padding: 25px;
+}
+
+
+input[type=text], input[type=tel], input[type=email], input[type=file], input[type=checkbox], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 300px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#form {
+  border-radius: 30px;
+  background-color: #dadada;
+  padding: 20px;
+  width: 1000px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+#footer {
+	background-color: #2C2C2C;
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.s_images {
+	height: 36px;
+	filter: saturate(0);
+}
+
+.s_images:hover {
+   -webkit-filter: saturate(1);
+   filter: saturate(1)
+}
+
+#phone_img {
+	width: 10px;
+	filter: invert(1);
+}
+
+#socials img {
+	padding: 0px 5px 0px 5px;
+}
+
+#phone a {
+	color: white;
+	text-decoration: none;
+}
+
+#rights, #phone {
+	display: flex;
+	align-items: center;
+}

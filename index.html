@@ -5,8 +5,36 @@
     <title>Kris' Projects</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <meta name="robots" content="noindex">
 </head>
 <body>
+
+    <!-- preloading stuff -->
+    <link rel="preload" href="img/gifs/tochka-rosta.webp" as="image">
+    <link rel="preload" href="img/gifs/ctv.webp" as="image">
+    <link rel="preload" href="img/gifs/jurnalWesport.webp" as="image">
+    <link rel="preload" href="img/gifs/metallion.webp" as="image">
+    <link rel="preload" href="img/gifs/mcrsrl.webp" as="image">
+    <link rel="preload" href="img/gifs/dungeonsAndRabbits.webp" as="image">
+    <link rel="preload" href="img/gifs/onag.webp" as="image">
+    <link rel="preload" href="img/gifs/speedpie.webp" as="image">
+    <link rel="preload" href="img/gifs/abth.webp" as="image">
+    <link rel="preload" href="img/gifs/teorieMuzicala.webp" as="image">
+    <link rel="preload" href="img/gifs/laInvartite.webp" as="image">
+    <link rel="preload" href="img/gifs/trivia.webp" as="image">
+    <link rel="preload" href="img/gifs/bucuria.webp" as="image">
+    <link rel="preload" href="img/gifs/sah.webp" as="image">
+    <link rel="preload" href="img/gifs/clicksphere.webp" as="image">
+    <link rel="preload" href="img/gifs/pian.webp" as="image">
+    <link rel="preload" href="img/gifs/unde.webp" as="image">
+    <link rel="preload" href="img/gifs/mcdonalds.webp" as="image">
+    <link rel="preload" href="img/gifs/basil.webp" as="image">
+    <link rel="preload" href="img/gifs/garfieldGang.webp" as="image">
+
+
+
+
+
     <center>
         <table border="0">
             <tr>
@@ -16,7 +44,7 @@
             <tr>
                 <td colspan="8">
                     <span>
-                        <u><a href="https://drive.google.com/file/d/1V15xA-COPVm6ctvlGX_uvVdk6qoXqtpG/view?usp=drive_link" class="titleLinks">📄 My CV</a></u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <u><a href="https://drive.google.com/file/d/1E63pqaO4nGfj3ah3Pq-HE0ekOEGH-Q2m/view?usp=sharing" class="titleLinks">📄 My CV</a></u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <u><a href="mailto:balan.cristian1@usm.md" class="titleLinks">📧 E-Mail</a></u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <u><a href="https://t.me/kris3580" class="titleLinks">💬 Telegram</a></u>
                     </span>
@@ -68,10 +96,12 @@
                 <td class="heading" colspan="8">Commercial</td>
             </tr>
             <tr>
-                <td><a href="#ctv" onclick="show_ctv()"><img src="img/thumbnails/ctv.jpg" class="thumbnail" data-gif="img/thumbnails/ctv.gif" data-type="Video Editing,Photo Editing,Team Effort" data-tool="Adobe Premiere Pro" /></a></td>
-                <td><a href="#jurnalWesport" onclick="show_jurnalWesport()"><img src="img/thumbnails/jurnalWesport.png" class="thumbnail" data-gif="img/thumbnails/jurnalWesport.gif" data-type="Video Editing" data-tool="Adobe Premiere Pro" /></a></td>
-                <td><a href="#metallion" onclick="show_metallion()"><img src="img/thumbnails/metallion.png" class="thumbnail" data-gif="img/thumbnails/metallion.gif" data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop" /></a></td>
-                <td><a href="#mcrsrl" onclick="show_mcrsrl()"><img src="img/thumbnails/mcrsrl.png" class="thumbnail" data-gif="img/thumbnails/mcrsrl.gif" data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop" /></a></td>
+
+                <td><a href="#tochka-rosta" onclick="show_tochka_rosta()"><img src="img/thumbnails/tochka-rosta.png" class="thumbnail" data-gif="img/gifs/tochka-rosta.webp" data-type="Game Development,Team Effort,Programming" data-tool="C#,Unity" /></a></td>
+                <td><a href="#ctv" onclick="show_ctv()"><img src="img/thumbnails/ctv.webp" class="thumbnail" data-gif="img/gifs/ctv.webp" data-type="Video Editing,Photo Editing,Team Effort" data-tool="Adobe Premiere Pro" /></a></td>
+                <td><a href="#jurnalWesport" onclick="show_jurnalWesport()"><img src="img/thumbnails/jurnalWesport.webp" class="thumbnail" data-gif="img/gifs/jurnalWesport.webp" data-type="Video Editing" data-tool="Adobe Premiere Pro" /></a></td>
+                <td><a href="#metallion" onclick="show_metallion()"><img src="img/thumbnails/metallion.webp" class="thumbnail" data-gif="img/gifs/metallion.webp" data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop" /></a></td>
+                <td><a href="#mcrsrl" onclick="show_mcrsrl()"><img src="img/thumbnails/mcrsrl.webp" class="thumbnail" data-gif="img/gifs/mcrsrl.webp" data-type="Video Editing,Photo Editing,Animation,Solo" data-tool="Adobe Premiere Pro,Adobe Photoshop" /></a></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -83,28 +113,55 @@
 
             </tr>
             <tr>
-                <td><a href="#show_dungeonsAndRabbits" onclick="show_dungeonsAndRabbits()"><img src="img/thumbnails/dungeonsAndRabbits.png" class="thumbnail" data-gif="img/thumbnails/dungeonsAndRabbits.gif" data-type="Game Development,Programming,Team Effort,Musical Composition" data-tool="Unity,FL Studio,C#" /></a></td>
-                <td><a href="#onag" onclick="show_onag()"><img src="img/thumbnails/onag.png" class="thumbnail" data-gif="img/thumbnails/onag.gif" data-type="Solo,Game Development,Programming,Video Editing,Photo Editing" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro" /></a></td>
-                <td><a href="#speedpie" onclick="show_speedpie()"><img src="img/thumbnails/speedpie.png" class="thumbnail" data-gif="img/thumbnails/speedpie.gif" data-type="Game Development,Programming,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,C#,FL Studio" /></a></td>
-                <td><a href="#abth" onclick="show_abth()"><img src="img/thumbnails/abth.png" class="thumbnail" data-gif="img/thumbnails/abth.gif" data-type="Game Development,Animation,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,FL Studio,Aseprite" /></a></td>
-                <td><a href="#teorieMuzicala" onclick="show_teorieMuzicala()"><img src="img/thumbnails/teorieMuzicala.png" class="thumbnail" data-gif="img/thumbnails/teorieMuzicala.gif" data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Illustrator / Inkscape,Adobe Premiere Pro" /></a></td>
-                <td><a href="#laInvartite" onclick="show_laInvartite()"><img src="img/thumbnails/laInvartite.png" class="thumbnail" data-gif="img/thumbnails/laInvartite.gif" data-type="Solo,Web Development,Photo Editing" data-tool="HTML/CSS/JS/PHP,Adobe Photoshop" /></a></td>
-                <td><a href="#trivia" onclick="show_trivia()"><img src="img/thumbnails/trivia.png" class="thumbnail" data-gif="img/thumbnails/trivia.gif" data-type="Solo,Game Development,Programming" data-tool="Windows Forms,C#" /></a></td>
-                <td><a href="#bucuria" onclick="show_bucuria()"><img src="img/thumbnails/bucuria.png" class="thumbnail" data-gif="img/thumbnails/bucuria.gif" data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
+                <td><a href="#show_dungeonsAndRabbits" onclick="show_dungeonsAndRabbits()"><img src="img/thumbnails/dungeonsAndRabbits.webp" class="thumbnail" data-gif="img/gifs/dungeonsAndRabbits.webp" data-type="Game Development,Programming,Team Effort,Musical Composition" data-tool="Unity,FL Studio,C#" /></a></td>
+                <td><a href="#onag" onclick="show_onag()"><img src="img/thumbnails/onag.webp" class="thumbnail" data-gif="img/gifs/onag.webp" data-type="Solo,Game Development,Programming,Video Editing,Photo Editing" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro" /></a></td>
+                <td><a href="#speedpie" onclick="show_speedpie()"><img src="img/thumbnails/speedpie.webp" class="thumbnail" data-gif="img/gifs/speedpie.webp" data-type="Game Development,Programming,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,C#,FL Studio" /></a></td>
+                <td><a href="#abth" onclick="show_abth()"><img src="img/thumbnails/abth.webp" class="thumbnail" data-gif="img/gifs/abth.webp" data-type="Game Development,Animation,Team Effort,Musical Composition,Art" data-tool="Unity,Adobe Photoshop,FL Studio,Aseprite" /></a></td>
+                <td><a href="#teorieMuzicala" onclick="show_teorieMuzicala()"><img src="img/thumbnails/teorieMuzicala.webp" class="thumbnail" data-gif="img/gifs/teorieMuzicala.webp" data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Illustrator / Inkscape,Adobe Premiere Pro" /></a></td>
+                <td><a href="#laInvartite" onclick="show_laInvartite()"><img src="img/thumbnails/laInvartite.webp" class="thumbnail" data-gif="img/gifs/laInvartite.webp" data-type="Solo,Web Development,Photo Editing" data-tool="HTML/CSS/JS/PHP,Adobe Photoshop" /></a></td>
+                <td><a href="#trivia" onclick="show_trivia()"><img src="img/thumbnails/trivia.webp" class="thumbnail" data-gif="img/gifs/trivia.webp" data-type="Solo,Game Development,Programming" data-tool="Windows Forms,C#" /></a></td>
+                <td><a href="#bucuria" onclick="show_bucuria()"><img src="img/thumbnails/bucuria.webp" class="thumbnail" data-gif="img/gifs/bucuria.webp" data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
             </tr>
             <tr>
-                <td><a href="#sah" onclick="show_sah()"><img src="img/thumbnails/sah.png" class="thumbnail" data-gif="img/thumbnails/sah.gif" data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
-                <td><a href="#clicksphere" onclick="show_clicksphere()"><img src="img/thumbnails/clicksphere.png" class="thumbnail" data-gif="img/thumbnails/clicksphere.gif" data-type="Solo,Game Development,Programming" data-tool="Unity" /></a></td>
-                <td><a href="#pian" onclick="show_pian()"><img src="img/thumbnails/pian.png" class="thumbnail" data-gif="img/thumbnails/pian.gif" data-type="Solo,Animation,Art" data-tool="OpenToonz" /></a></td>
-                <td><a href="#unde" onclick="show_unde()"><img src="img/thumbnails/unde.png" class="thumbnail" data-gif="img/thumbnails/unde.gif" data-type="Solo,Game Development,Programming,Video Editing,Photo Editing,Musical Composition" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro,FL Studio,Aseprite" /></a></td>
-                <td><a href="#mcdonalds" onclick="show_mcdonalds()"><img src="img/thumbnails/mcdonalds.png" class="thumbnail" data-gif="img/thumbnails/mcdonalds.gif" data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Premiere Pro" /></a></td>
-                <td><a href="#basil" onclick="show_basil()"><img src="img/thumbnails/basil.png" class="thumbnail" data-gif="img/thumbnails/basil.gif" data-type="Solo,Musical Composition" data-tool="FL Studio,Adobe Premiere Pro" /></a></td>
-                <td><a href="#garfieldGang" onclick="show_garfieldGang()"><img src="img/thumbnails/garfieldGang.png" class="thumbnail" data-gif="img/thumbnails/garfieldGang.gif" data-type="Solo,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
+                <td><a href="#sah" onclick="show_sah()"><img src="img/thumbnails/sah.webp" class="thumbnail" data-gif="img/gifs/sah.webp" data-type="Solo,2D Design,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
+                <td><a href="#clicksphere" onclick="show_clicksphere()"><img src="img/thumbnails/clicksphere.webp" class="thumbnail" data-gif="img/gifs/clicksphere.webp" data-type="Solo,Game Development,Programming" data-tool="Unity" /></a></td>
+                <td><a href="#pian" onclick="show_pian()"><img src="img/thumbnails/pian.webp" class="thumbnail" data-gif="img/gifs/pian.webp" data-type="Solo,Animation,Art" data-tool="OpenToonz" /></a></td>
+                <td><a href="#unde" onclick="show_unde()"><img src="img/thumbnails/unde.webp" class="thumbnail" data-gif="img/gifs/unde.webp" data-type="Solo,Game Development,Programming,Video Editing,Photo Editing,Musical Composition" data-tool="Unity,Adobe Photoshop,Adobe Premiere Pro,FL Studio,Aseprite" /></a></td>
+                <td><a href="#mcdonalds" onclick="show_mcdonalds()"><img src="img/thumbnails/mcdonalds.webp" class="thumbnail" data-gif="img/gifs/mcdonalds.webp" data-type="Solo,Animation" data-tool="Adobe After Effects,Adobe Premiere Pro" /></a></td>
+                <td><a href="#basil" onclick="show_basil()"><img src="img/thumbnails/basil.webp" class="thumbnail" data-gif="img/gifs/basil.webp" data-type="Solo,Musical Composition" data-tool="FL Studio,Adobe Premiere Pro" /></a></td>
+                <td><a href="#garfieldGang" onclick="show_garfieldGang()"><img src="img/thumbnails/garfieldGang.webp" class="thumbnail" data-gif="img/gifs/garfieldGang.webp" data-type="Solo,Art" data-tool="Adobe Illustrator / Inkscape" /></a></td>
             </tr>
 
 
 
+            <!-- tochka-rosta -->
 
+            <tr id="tochka-rosta" class="showcase">
+                <td colspan="5">
+                    <img class="showcaseImage" src="img/projects/tochka-rosta.webp" />
+                </td>
+                <td colspan="2">
+                    <span class="showcaseTitle">
+                        Unity Game Development at Tochka Rosta
+                    </span>
+                    <span class="shocaseDescription">
+                        <br /><br /><br />Made a 3D mobile tower defense/real-time strategy game prototype. Features include: basic combat, upgradeble buildings, infantry/archer AI for allies and enemies, day/night states, etc.
+                        <br><br /> The game's programming was done by me, 3D models and planning was done by my colleagues.
+                    </span>
+                    <span class="showcaseLinks">
+                        <br /><br /><br />The game can be downloaded and played <a href="https://drive.google.com/file/d/16rogMChWu9bWKFiZSNk17jX-xH49CVTL/view?usp=sharing">here.</a>
+                    </span>
+
+                    <span class="shocaseDescription">
+                        <br /><br /><br />Made a level for a 2D mobile cooking game.
+                        <br><br /> The game's programming was done by me, art and planning was done by my colleagues.
+                    </span>
+                    <span class="showcaseLinks">
+                        <br /><br /><br />The game can be downloaded and played <a href="https://drive.google.com/file/d/1GgQ8GCuSVWchXz6D6Oh1p0nMz3mrPAaK/view?usp=sharing">here.</a>
+                    </span>
+                </td>
+
+            </tr>
 
             <!-- sah -->
 
@@ -293,7 +350,7 @@
 
             <tr id="onag" class="showcase">
                 <td colspan="5">
-                    <iframe  src="https://www.youtube.com/embed/SpHyNKyjGis?si=EFTwNrjMdKMP3DCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/SpHyNKyjGis?si=EFTwNrjMdKMP3DCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </td>
                 <td colspan="2">
                     <span class="showcaseTitle">One Night At Gussy's</span>
@@ -370,12 +427,10 @@
                     <span class="showcaseTitle">"La Învârtite" Website</span>
                     <span class="shocaseDescription">
                         <br /><br /><br />This is the website made for the fake food chain "La Învârtite".
-                        <br /><br />The employment form sends me an e-mail containing the details.
-
                         <br /><br />This website is part of a college assignment.
                     </span>
                     <span class="showcaseLinks">
-                        <br /><br /><br />The website can be accesed <a href="https://la-invartite.000webhostapp.com/">here.</a>
+                        <br /><br /><br />The website can be accesed <a href="other/laInvartite/index.html">here.</a>
                     </span>
                 </td>
 
@@ -425,17 +480,17 @@
 
             </tr>
 
-            
+
             <!-- jurnalwesport -->
 
             <tr id="jurnalWesport" class="showcase">
                 <td colspan="5">
-                    <video height="576" width="1024"  controls>
+                    <video height="576" width="1024" controls>
                         <source src="https://proiect-practica.000webhostapp.com/video.mp4" type="video/mp4">
                     </video>
-                        <br />*This is video is used as an example only. It does not reflect the entire scope of work quantity and it should be treated as such.
+                    <br />*This is video is used as an example only. It does not reflect the entire scope of work quantity and it should be treated as such.
 
-</td>
+                </td>
                 <td colspan="2">
                     <span class="showcaseTitle">WeSport News Bulletin</span>
                     <span class="shocaseDescription">
@@ -484,7 +539,7 @@
                     </span>
                     <span class="showcaseLinks">
                         <br /><br /><br />The game can be played in the browser <a href="https://cluelesstudios.itch.io/speedpie">here.</a>
-                        <br /><br />The game soundtrack can be listened <a href="https://www.youtube.com/watch?v=35hIHSea0M8">here.</a> 
+                        <br /><br />The game soundtrack can be listened <a href="https://www.youtube.com/watch?v=35hIHSea0M8">here.</a>
                     </span>
                 </td>
 
